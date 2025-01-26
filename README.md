@@ -41,9 +41,11 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 
 ## 📂 Folder Structure
 
+```plaintext
+/
+|-- CSS/             # Main folder for CSS and images
+|   |-- Images/      # Images used in the designs
 
-|-- images/          # Images and sniped used in the designs
-|-- css/             # All files stored in this you can clone it
 
 
 🎉 Enjoy Yourself! 🎨✨💻
