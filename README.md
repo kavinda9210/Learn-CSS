@@ -7,22 +7,22 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 ## 📸 Preview
 
 ### 1. Hover Interaction  
-![Hover Interaction](./T1.PNG)
+![Hover Interaction](./CSS/images/T1.PNG)
 
 ### 2. Dynamic Boxes  
-![Dynamic Boxes](./T2.PNG)
+![Dynamic Boxes](./CSS/images/T2.PNG)
 
 ### 3. Styled Article  
-![Styled Article](./T3.PNG)
+![Styled Article](./CSS/images/T3.PNG)
 
 ### 4. Rotated Text  
-![Rotated Text](./T4.PNG)
+![Rotated Text](./CSS/images/T4.PNG)
 
 ### 5. Hover-Animated Text  
-![Hover-Animated Text](./T5.PNG)
+![Hover-Animated Text](./CSS/images/T5.PNG)
 
 ### 6. Navigation Highlight  
-![Navigation Highlight](./T6.PNG)
+![Navigation Highlight](./CSS/images/T6.PNG)
 
 ---
 
