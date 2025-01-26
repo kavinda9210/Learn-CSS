@@ -1,0 +1,58 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    font-size: 2.2rem;
+}
+
+ul:before {
+    content: "";
+    position: absolute;
+    position-anchor: --li;
+    inset: auto anchor(right) anchor(bottom) anchor(left);
+    background: red;
+    height: .2em;
+    transition: .2s .2s;
+}
+
+ul li {
+    background:
+        conic-gradient(lightblue 0 0) bottom/100% 0% no-repeat;
+    transition: .2s;
+}
+
+ul li:nth-child(odd) {
+    background-image: conic-gradient(lightgreen 0 0);
+}
+
+ul li:is(:hover, .active) {
+    anchor-name: --li;
+    background-size: 100% 100%;
+    transition: .2s .4s;
+}
+
+ul:has(li:hover) li.active:not(:hover) {
+    anchor-name: none;
+    background-size: 100% 0%;
+    transition: .2s;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-inline: .2em;
+    display: block;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #f2f2f2;
+    font-family: system-ui, sans-serif;
+}

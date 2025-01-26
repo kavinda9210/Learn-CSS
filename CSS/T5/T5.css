@@ -1,0 +1,70 @@
+@property --d {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
+
+.small {
+    width: max-content;
+    font-size: 1.4rem;
+    offset: content-box var(--d) 0deg / left center;
+    transition: --d .2s linear;
+
+    &.one {
+        --d: 2%;
+    }
+
+    &.two {
+        --d: 70%;
+    }
+}
+
+.big {
+    width: 80%;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-family: 'roboto mono';
+}
+
+figure {
+    width: 300px;
+    text-align: center;
+    transform: rotate(-35deg);
+}
+
+article {
+    height: 360px;
+    background: linear-gradient(45deg, rgb(172 231 138), rgb(233 214 189));
+    color: orangered;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-shadow: 1px 1px 0 #ddd;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+
+    &:hover figure {
+        color: red;
+
+        .one {
+            --d: 15%;
+        }
+
+        .two {
+            --d: 80%;
+        }
+    }
+}
+
+body {
+    /* for demo purpose */
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    font: 14px 'poppins';
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}

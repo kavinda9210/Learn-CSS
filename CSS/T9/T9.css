@@ -1,0 +1,86 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    font-size: 2.2rem;
+}
+
+ul:before {
+    content: "";
+    position: absolute;
+    position-anchor: --li;
+    border-radius: 50%;
+    inset: auto calc(anchor(center) - .2em) anchor(bottom);
+    aspect-ratio: 1;
+    background: lightblue;
+    transition: .3s .2s, .3s .2s cubic-bezier(0, -900, 1, -900) bottom;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 100% 50% 0;
+    border-radius: 50%;
+    background: lightblue;
+    transition: .2s;
+}
+
+ul li:is(:hover, .active):before {
+    anchor-name: --li;
+    inset: 0;
+    border-radius: 0%;
+    transition: .2s .5s;
+}
+
+ul:has(li:hover) li.active:not(:hover):before {
+    anchor-name: none;
+    inset: 100% 50% 0;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+/* the hacky part of the code (related: https://css-tricks.com/advanced-css-animation-using-cubic-bezier/) */
+ul:not(#_) li:nth-child(1):before {
+    bottom: -.1px
+}
+
+ul:not(#_) li:nth-child(2):before {
+    bottom: -.2px
+}
+
+ul:not(#_) li:nth-child(3):before {
+    bottom: -.3px
+}
+
+ul:not(#_) li:nth-child(4):before {
+    bottom: -.4px
+}
+
+ul:not(#_) li:nth-child(5):before {
+    bottom: -.5px
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 1.6;
+    padding-inline: .2em;
+    display: block;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #f2f2f2;
+    font-family: system-ui, sans-serif;
+}

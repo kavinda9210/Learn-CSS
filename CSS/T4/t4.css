@@ -1,0 +1,30 @@
+.small {
+    width: max-content;
+    offset: content-box 90% -54deg / center -3rem;
+    font-size: 1.5rem;
+    color: navy;
+}
+
+.big {
+    font-size: 20rem;
+    font-weight: bold;
+    color: transparent;
+}
+
+figure {
+    background: linear-gradient(-135deg, rgb(240 247 250) 10%, rgb(170 232 251));
+    background-clip: text;
+    filter: drop-shadow(0 0 3px #eee);
+}
+
+body {
+    /*  for demo purpose   */
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    font: 14px poppins;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}

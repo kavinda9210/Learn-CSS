@@ -1,0 +1,26 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+    font-size: 2.2rem;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-inline: .2em;
+    display: block;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: #f2f2f2;
+    font-family: system-ui, sans-serif;
+}
