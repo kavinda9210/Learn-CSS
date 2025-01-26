@@ -44,7 +44,7 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 ```plaintext
 /
 |-- CSS/             # Main folder for CSS and images
-|   |-- Images/      # Images used in the designs
+|   |-- Images/      # Screenshots of codes
 
 
 
