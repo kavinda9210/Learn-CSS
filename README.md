@@ -10,7 +10,7 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 ![Hover Interaction](./CSS/images/T1.PNG)
 
 ### 2. Dynamic Boxes  
-![Dynamic Boxes](./CSS/images/T2.PNG)
+![Dynamic Boxes](./images/T2.PNG)
 
 ### 3. Styled Article  
 ![Styled Article](./CSS/images/T3.PNG)
