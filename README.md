@@ -7,22 +7,22 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 ## 📸 Preview
 
 ### 1. Hover Interaction  
-![Hover Interaction](./CSS/images/T1.PNG)
+![Hover Interaction](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T1.PNG)
 
 ### 2. Dynamic Boxes  
-![Dynamic Boxes](./images/T2.PNG)
+![Dynamic Boxes](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T2.PNG)
 
 ### 3. Styled Article  
-![Styled Article](./CSS/images/T3.PNG)
+![Styled Article](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T3.PNG)
 
 ### 4. Rotated Text  
-![Rotated Text](./CSS/images/T4.PNG)
+![Rotated Text](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T4.PNG)
 
 ### 5. Hover-Animated Text  
-![Hover-Animated Text](./CSS/images/T5.PNG)
+![Hover-Animated Text](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T5.PNG)
 
 ### 6. Navigation Highlight  
-![Navigation Highlight](./CSS/images/T6.PNG)
+![Navigation Highlight](https://github.com/kavinda9210/Learn-CSS/raw/main/CSS/Images/T6.PNG)
 
 ---
 
@@ -38,6 +38,16 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
   Enhanced navigation and visually appealing layouts.
 
 ---
+
+## 📂 Folder Structure
+
+```plaintext
+/
+|-- CSS/             # Main folder for CSS and images
+|   |-- Images/      # Images used in the designs
+|-- index.html       # Main entry point
+|-- README.md        # Project documentation
+
 
 ## 📂 Folder Structure
 
