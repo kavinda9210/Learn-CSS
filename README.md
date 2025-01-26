@@ -41,7 +41,7 @@ Welcome to the **CSS Design Showcase**! This project demonstrates creative and d
 
 ## 📂 Folder Structure
 
-/
+
 |-- images/          # Images and sniped used in the designs
 |-- css/             # All files stored in this you can clone it
 
